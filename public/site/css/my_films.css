@@ -1,0 +1,29 @@
+div.my_films{
+  margin-top: 100px;
+}
+
+.panel-info>.panel-heading {
+    color: #ffffff;
+    background-color: #ff755a;
+    border-color: #ff755a;
+}
+span.primary{
+  color: #ff755a;
+}
+hr.horizontal {
+  border-color: #ff755a;
+}
+
+.btn-link {
+    color: #ff755a;
+}
+
+.btn-link:hover{
+  color: #000;
+}
+
+.btn-default:hover {
+    color: #fff;
+    background-color: #ff755a;
+    border-color: #fff;
+}

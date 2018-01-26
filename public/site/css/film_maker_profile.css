@@ -1,0 +1,38 @@
+.passport_text p {
+    color: #000;
+    text-transform: capitalize;
+    font-family: ptmono;
+    font-size: 10px;
+    padding-top: 0px;
+    margin: 0;
+}
+
+.passport_text h3 {
+    margin: 0;
+    color: #e33b30;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: moon-bold;
+    font-size: 12px;
+    line-height: 28px;
+}
+
+@media (max-width: 500px) {
+    .passport_text p {
+        color: #000;
+        text-transform: capitalize;
+        font-family: ptmono;
+        font-size: 10px;
+        padding-top: 0px;
+        margin: 0;
+    }
+    .passport_text h3 {
+        margin: 0;
+        color: #e33b30;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: moon-bold;
+        font-size: 12px;
+        line-height: 20px;
+    }
+}

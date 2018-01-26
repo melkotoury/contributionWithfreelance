@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>I am a film | Submit Your Short Movie</title>
+    <meta name="keywords" content="short films, films, festivals, submit your films, i am a film, film makers, submit my film to festivals">
+    <meta name="description" content="submit your short film , film festivals , directors , editors , short films">
+    <meta name="viewport" content="width=device-width">
+
+    <meta property="og:title" content="Iamafilm | Designed By Root Cave">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.iamafilm.com">
+    <meta property="og:site_name" content="Iamafilm">
+    <meta property="og:description" content="made with bootstrap, wrap bootstrap themes, bootstrap agency themes, creative bootstrap sites, Lava theme, responsive bootstrap theme, mobile website themes, bootstrap portfolio, Root Cave">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/vendors/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/vendors/animate.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+    <link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="../css/vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/iamafilm.css">
+
+
+    <script src="../js/lib/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../../../../apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../../../../apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../../../../../apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../../../../../apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="../../../../../favicon.html">
+</head>
+
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand img-responsive" href="submitted_films.html"><img class="brand-logo" src="../img/logo.png" alt="logo"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="festival_profile.html">Profile</a></li>
+                <li >
+                    <a href="submitted_films.html" >Submitted Film </a>
+                </li>
+                <li>
+                    <a href="programmers.html" > Programmers </a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Map <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="map_film_maker.html">Film Maker</a></li>
+                        <li><a href="map_festivals.html">Festivals</a></li>
+                    </ul>
+                </li>
+                <!--<li><a href="blog.html">Blog</a></li>-->
+                <li ><a href="festival_edition.html">My Editions</a></li>
+                <li ><a href="contact.html">Contact</a></li>
+
+
+                <li class="login-menu"><a  class="login-pad" href="login.html" role="button" data-toggle="" data-target=""><i class="fa fa-lock" aria-hidden="true"></i>  Login</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img
+                            src="../img/users/bahaa.jpg" style="height: 24px; width: 24px;" alt="" class="img-responsive img-circle user-img"> <span> bahaa el gamal</span> <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="submitted_films.html"><i class="fa fa-home"></i> Home</a></li>
+                        <li><a href="festival_profile.html"><i class="fa fa-user" aria-hidden="true"></i> My Profile</a></li>
+                        <li><a href="festival_edit_profile.html"><i class="fa fa-gear" aria-hidden="true"></i> Edit Profile</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> Log Out</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!--/.navbar-collapse -->
+    </div>
+</div>
+
+<!--Profile wrapper-->
+<div class = " wrapper">
+    <!--<div class="col-lg-12 col-sm-12">-->
+        <div class="card hovercard">
+            <div class="card-background">
+                <img class="card-bkimg" alt="" src="../img/cover/bahaa.jpg">
+                <!-- http://lorempixel.com/850/280/people/9/ -->
+            </div>
+            <div class="useravatar">
+                <img alt="" src="../img/users/bahaa.jpg">
+            </div>
+            <div class="card-info"> <span class="card-title">Bahaa El Gamal</span>
+
+            </div>
+        </div>
+        <div class="btn-pref btn-group btn-group-justified btn-group-lg" role="group" aria-label="...">
+            <div class="btn-group" role="group">
+                <button type="button" id="bio" class="btn clicked" href="#tab1" data-toggle="tab"><span class="fa fa-info" aria-hidden="true"></span>
+                    <div class="hidden-xs">Bio</div>
+                </button>
+            </div>
+            <div class="btn-group" role="group">
+                <button type="button" id="film" class="btn " href="#tab2" data-toggle="tab"><span class="fa fa-film" aria-hidden="true"></span>
+                    <div class="hidden-xs">Films</div>
+                </button>
+            </div>
+            <div class="btn-group" role="group">
+                <button type="button" id="submit_film" class="btn " href="#tab3" data-toggle="tab"><span class="fa fa-plane" aria-hidden="true"></span>
+                    <div class="hidden-xs">Submitted Films</div>
+                </button>
+            </div>
+        </div>
+
+
+            <div class="tab-content">
+                <div class="tab-pane fade in active " id="tab1">
+                    <!--<h3>This is tab 1</h3>-->
+                    <div class="container hidden-cs bio-tab">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bhoechie-tab-container">
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 bhoechie-tab-menu">
+                    <div class="list-group">
+                      <a id="about" href="#" class="list-group-item active text-center">
+                        <h4 class="fa fa-pencil-square-o"></h4><br/>Biography
+                      </a>
+                      <a id="filmography" href="#" class="list-group-item text-center">
+                        <h4 class="fa fa-briefcase"></h4><br/>Filmography
+                      </a>
+                      <a id="awards" href="#" class="list-group-item text-center">
+                        <h4 class="glyphicon glyphicon-certificate"></h4><br/>Awards and Achievements
+                      </a>
+                      <a id="contact" href="#" class="list-group-item text-center">
+                        <h4 class="fa fa-phone-square"></h4><br/>Contact Info
+                      </a>
+                      <!-- about , work , contact , follow -->
+                      <!-- <a href="#" class="list-group-item text-center">
+                        <h4 class="glyphicon glyphicon-credit-card"></h4><br/>Credit Card
+                      </a> -->
+                    </div>
+                  </div>
+                  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 bhoechie-tab">
+                      <!-- about section -->
+                      <div id="about1" class="bhoechie-tab-content active">
+                        <h5 style="color:#ff755a;">MINI BIO</h5>
+                        <hr style="border-color: #ff755a;">
+                          <div class="col-xs-12">
+                            Bahaa el Gamal is an editor and director, known for My Window (2016), Six (2013) and 130 Km to Heaven (2015).
+                          </div>
+                      </div>
+                      <!-- work section -->
+                      <div id="filmography1" class="bhoechie-tab-content hidden">
+                          <h5 style="color:#ff755a;">Filmography</h5>
+                          <hr style="border-color: #ff755a;">
+                          <div class="col-xs-12">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, dolore minima nemo nisi nulla numquam odio similique sit? A adipisci autem culpa dolor id ipsam nemo pariatur ratione recusandae tempora!</p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque commodi consectetur cumque eligendi est eum explicabo hic, ipsa, laudantium neque odit possimus, quod rerum sed sequi tenetur velit. Sequi.</p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ea fuga neque sunt. Ad aliquid dolores ea ipsa neque obcaecati repellat? Alias amet dignissimos dolore modi odio, sit sunt unde?</p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam at, dolores enim eum ex, iusto maiores maxime natus nobis nulla vel? Atque debitis iste similique! Aperiam cumque fugit vel?</p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci beatae deleniti deserunt distinctio dolorem eaque, ex fuga fugiat fugit hic illo impedit natus nisi obcaecati recusandae reiciendis temporibus velit veniam.</p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium assumenda eveniet excepturi, fuga laborum molestias necessitatibus omnis perferendis reiciendis rerum sit veritatis? Accusamus dicta error id incidunt, nesciunt provident.</p>
+                          </div>
+
+                      </div>
+
+                      <!-- follow sections -->
+                      <div id="awards1" class="bhoechie-tab-content hidden">
+                          <h5 style="color:#ff755a;">Awards and Achievements</h5>
+                          <hr style="    border-color: #ff755a;">
+                          <div class="col-xs-12">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, dolore minima nemo nisi nulla numquam odio similique sit? A adipisci autem culpa dolor id ipsam nemo pariatur ratione recusandae tempora!</p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque commodi consectetur cumque eligendi est eum explicabo hic, ipsa, laudantium neque odit possimus, quod rerum sed sequi tenetur velit. Sequi.</p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ea fuga neque sunt. Ad aliquid dolores ea ipsa neque obcaecati repellat? Alias amet dignissimos dolore modi odio, sit sunt unde?</p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam at, dolores enim eum ex, iusto maiores maxime natus nobis nulla vel? Atque debitis iste similique! Aperiam cumque fugit vel?</p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci beatae deleniti deserunt distinctio dolorem eaque, ex fuga fugiat fugit hic illo impedit natus nisi obcaecati recusandae reiciendis temporibus velit veniam.</p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium assumenda eveniet excepturi, fuga laborum molestias necessitatibus omnis perferendis reiciendis rerum sit veritatis? Accusamus dicta error id incidunt, nesciunt provident.</p>
+                          </div>
+                      </div>
+
+                      <!-- contact section -->
+                      <div id="contact1" class="bhoechie-tab-content hidden">
+                          <!-- <center>
+                            <h1 class="glyphicon glyphicon-home" style="font-size:12em;color:#ff755a"></h1>
+                            <h2 style="margin-top: 0;color:#ff755a">Cooming Soon</h2>
+                            <h3 style="margin-top: 0;color:#ff755a">Hotel Directory</h3>
+                          </center> -->
+                          <h5 style="color:#ff755a;">CONTACT INFORMATION</h5>
+                          <hr style="border-color: #ff755a;">
+                          <!--Phone  -->
+                          <div class="row">
+
+
+                          <div class="col-sm-3">
+
+                            <!-- <i class="fa fa-phone"></i> -->
+                            Mobile Phone:
+
+                          </div>
+                          <div class="col-sm-9">
+                            +20 122 284 8061
+                          </div>
+                          </div>
+                          <!-- Address -->
+                          <div class="row">
+
+
+                          <div class="col-sm-3">
+
+                            <!-- <i class="fa fa-map-marker"></i> -->
+                            Address:
+
+                          </div>
+                          <div class="col-sm-9">
+                            6 Gamal Salem St., from Mosadak St., Dokki , Giza , Egypt
+                          </div>
+                          </div>
+                          <!--Email  -->
+                          <div class="row">
+
+
+                          <div class="col-sm-3">
+
+                            <!-- <i class="fa fa-envelope"></i> -->
+                            Email:
+
+                          </div>
+                          <div class="col-sm-9">
+                            bahaa@iamafilm.com
+                          </div>
+                          </div>
+                          <h5 style="color:#ff755a;">BASIC INFORMATION</h5>
+                          <hr style="    border-color: #ff755a;">
+                          <!-- Birth Date -->
+                          <div class="row">
+
+
+                          <div class="col-sm-3">
+
+                            <!-- <i class="fa fa-map-marker"></i> -->
+                            Birth Date:
+
+                          </div>
+                          <div class="col-sm-9">
+                            August 30, 1990
+                          </div>
+                          </div>
+                          <!-- Gender -->
+                          <div class="row">
+
+
+                          <div class="col-sm-3">
+
+                            <!-- <i class="fa fa-map-marker"></i> -->
+                            Gender:
+
+                          </div>
+                          <div class="col-sm-9">
+                            Male
+                          </div>
+                          </div>
+                      </div>
+
+                      <!-- <div class="bhoechie-tab-content hidden">
+                          <center>
+                            <h1 class="glyphicon glyphicon-credit-card" style="font-size:12em;color:#ff755a"></h1>
+                            <h2 style="margin-top: 0;color:#ff755a">Cooming Soon</h2>
+                            <h3 style="margin-top: 0;color:#ff755a">Credit Card</h3>
+                          </center>
+                      </div> -->
+                  </div>
+              </div>
+        </div>
+                </div>
+                <div class="tab-pane fade in" id="tab2">
+                    <!-- <h3>This is tab 2</h3> -->
+                    <div class="container">
+
+<!-- Film #1 Six -->
+                    <table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
+                            <tbody>
+                                <tr>
+                                    <td rowspan="2" valign="top" id="img_primary">
+                                        <div class="image">
+                    <a href="/title/tt3850544/?ref_=inth_ov_i"> <div class="hover-over-image zero-z-index">
+                    <img class="poster shadowed" height="209" width="140" alt="Six (2013) Poster" title="Six (2013)" src="../../img/my_films/01-six/01.jpg" itemprop="image">
+                    </div>
+                    </a>                    </div>
+                                    </td>
+                                    <td class="overview-top">
+                                        <h4 itemprop="name"><a href="/title/tt3850544/?ref_=inth_ov_tt" title="Six (2013)" itemprop="url"> Six (2013)</a></h4>
+                                        <p class="cert-runtime-genre">
+
+                                    <!-- <img title="PG" alt="Certificate PG" class="absmiddle certimage" src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/pg-1313470000._CB282939652_.png"> -->
+                                                <time itemprop="duration" datetime="PT103M">19 min</time>
+                                                    &nbsp;&nbsp;-&nbsp;&nbsp;
+                                                    <span itemprop="genre">Short</span>
+                                                     <span class="ghost">|</span>
+                                                    <span itemprop="genre">Action</span>
+                                                     <span class="ghost">|</span>
+                                                    <span itemprop="genre">Drama</span>
+                                                    <span class="ghost">|</span>
+                                                    <span itemprop="genre">Romance</span>
+
+
+
+                                        </p>
+                                            <!-- <div class="rating_txt">
+                          <div class="metascore no_ratings">
+                          Metascore: <strong>47</strong><span class="mellow">/100</span>
+                          (<a href="/title/tt3850544/criticreviews?ref_=inth_ov_rv" onclick="(new Image()).src='/rg/title-starbar/critics-reviews/images/b.gif?link=criticreviews';" title="4 review excerpts provided by Metacritic.com">4 reviews</a>)
+                          </div>
+                                            </div> -->
+                                        <div class="outline" itemprop="description">
+                    A gramophone breaks the silence , they are getting dressed to meet the coming visitors , she is searching for a butterfly necklace , she founds a gun . and then everything started
+
+.                    </div>
+                                        <div class="txt-block">
+                                            <h5 class="inline">Director:</h5>
+                                                <span itemprop="director" itemscope="" itemtype="http://schema.org/Person">
+                                                    <span itemprop="name">
+                    <a href="/name/nm1434034/?ref_=inth_ov_nm" itemprop="url">Bahaa El Gamal</a>                                </span>
+                                                </span>
+
+                                        </div>
+                                        <div class="txt-block">
+                                            <h5 class="inline">Stars:</h5>
+                                                <span itemprop="actors" itemscope="" itemtype="http://schema.org/Person">
+                                                    <span itemprop="name">
+                    <a href="/name/nm3715614/?ref_=inth_ov_nm" itemprop="url">Shaimaa Ebied</a></span></span>,
+                                                <span itemprop="actors" itemscope="" itemtype="http://schema.org/Person">
+                                                    <span itemprop="name">
+                    <a href="/name/nm8434613/?ref_=inth_ov_nm" itemprop="url">Atef Yousef</a></span></span>,
+                                                <!-- <span itemprop="actors" itemscope="" itemtype="http://schema.org/Person">
+                                                    <span itemprop="name">
+                    <a href="/name/nm8434618/?ref_=inth_ov_nm" itemprop="url">Adam Crosariol</a></span></span>,
+                                                <span itemprop="actors" itemscope="" itemtype="http://schema.org/Person">
+                                                    <span itemprop="name">
+                    <a href="/name/nm8434612/?ref_=inth_ov_nm" itemprop="url">Jonathon Douglass</a></span></span> -->
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="overview-bottom">
+
+                    <a href="/video/imdb/vi790673177?ref_=inth_ov_vi" class="btn2 btn2_simple small title-trailer video-colorbox btn btn-success" data-context="imdb" data-video="vi790673177" itemprop="trailer"> Watch Trailer
+
+                                    <!-- <span class="wlb_wrapper">
+                                         <a class="wlb_watchlist_lite btn2_wrapper btn2_active wlb_lite btn btn-default" data-tconst="tt3850544" data-size="small" data-caller-name="Title" data-initialized="1">
+                                         <!-- <div class="btn2_alert" style="display:none"></div><a class="btn2 small btn2_text_on" onclick="" title="Click to add to watchlist"><span class="btn2_glyph"></span><span class="btn2_text">Add to Watchlist</span></a></a> -->
+                                     <!-- </span>  -->
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <hr style="border-color:#ff755a;;" />
+
+<!-- Film #2 The Window -->
+<table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
+        <tbody>
+            <tr>
+                <td rowspan="2" valign="top" id="img_primary">
+                    <div class="image">
+<a href="/title/tt3850544/?ref_=inth_ov_i"> <div class="hover-over-image zero-z-index">
+<img class="poster shadowed" height="209" width="140" alt="My Window (2016) poster" title="My Window (2016)" src="../../img/my_films/02-my_window/01.jpg" itemprop="image">
+</div>
+</a>                    </div>
+                </td>
+                <td class="overview-top">
+                    <h4 itemprop="name"><a href="/title/tt3850544/?ref_=inth_ov_tt" title="Six (2013)" itemprop="url">My Window (2016)</a></h4>
+                    <p class="cert-runtime-genre">
+
+                <!-- <img title="PG" alt="Certificate PG" class="absmiddle certimage" src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/pg-1313470000._CB282939652_.png"> -->
+                            <time itemprop="duration" datetime="PT103M">16 min</time>
+                                &nbsp;&nbsp;-&nbsp;&nbsp;
+                                <span itemprop="genre">Short</span>
+                                 <span class="ghost">|</span>
+                                <span itemprop="genre">Action</span>
+                                 <span class="ghost">|</span>
+                                <span itemprop="genre">Drama</span>
+                                <span class="ghost">|</span>
+                                <span itemprop="genre">Romance</span>
+
+
+
+                    </p>
+                        <!-- <div class="rating_txt">
+      <div class="metascore no_ratings">
+      Metascore: <strong>47</strong><span class="mellow">/100</span>
+      (<a href="/title/tt3850544/criticreviews?ref_=inth_ov_rv" onclick="(new Image()).src='/rg/title-starbar/critics-reviews/images/b.gif?link=criticreviews';" title="4 review excerpts provided by Metacritic.com">4 reviews</a>)
+      </div>
+                        </div> -->
+                    <div class="outline" itemprop="description">
+                      In a noisy , chaotic and confusing city .. Its music through my window
+
+.                    </div>
+                    <div class="txt-block">
+                        <h5 class="inline">Director:</h5>
+                            <span itemprop="director" itemscope="" itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a href="iamafilm.html" itemprop="url">Bahaa El Gamal</a>                                </span>
+                            </span>
+
+                    </div>
+
+                    <div class="txt-block">
+                        <h5 class="inline">Writer:</h5>
+                            <span itemprop="director" itemscope="" itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+                  <a href="iamafilm.html" itemprop="url">Bahaa El Gamal</a>                                </span>
+                            </span>
+
+                    </div>
+
+                    <div class="txt-block">
+                        <h5 class="inline">Stars:</h5>
+                            <span itemprop="actors" itemscope="" itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a href="iamafilm.html" itemprop="url">Bahaa El Gamal</a></span></span>,
+                            <!-- <span itemprop="actors" itemscope="" itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a href="/name/nm8434613/?ref_=inth_ov_nm" itemprop="url">Atef Yousef</a></span></span>, -->
+                            <!-- <span itemprop="actors" itemscope="" itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a href="/name/nm8434618/?ref_=inth_ov_nm" itemprop="url">Adam Crosariol</a></span></span>,
+                            <span itemprop="actors" itemscope="" itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a href="/name/nm8434612/?ref_=inth_ov_nm" itemprop="url">Jonathon Douglass</a></span></span> -->
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="overview-bottom">
+
+<a href="/video/imdb/vi790673177?ref_=inth_ov_vi" class="btn2 btn2_simple small title-trailer video-colorbox btn btn-success" data-context="imdb" data-video="vi790673177" itemprop="trailer"> Watch Trailer
+
+                <!-- <span class="wlb_wrapper">
+                     <a class="wlb_watchlist_lite btn2_wrapper btn2_active wlb_lite btn btn-default" data-tconst="tt3850544" data-size="small" data-caller-name="Title" data-initialized="1">
+                     <!-- <div class="btn2_alert" style="display:none"></div><a class="btn2 small btn2_text_on" onclick="" title="Click to add to watchlist"><span class="btn2_glyph"></span><span class="btn2_text">Add to Watchlist</span></a></a> -->
+                 <!-- </span>  -->
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <hr style="border-color:#ff755a;;" />
+</div><!--End Container of film list -->
+                </div>
+                <div class="tab-pane fade in" id="tab3">
+                    <h3>This is tab 3</h3>
+                </div>
+            </div>
+
+<!--</div>-->
+    </div>
+    <!--end profile wrapper-->
+<!--Bottom Section-->
+<section id="bottom">
+    <div class="container">
+        <div class="row margin-40">
+            <div class="col-sm-10 col-sm-offset-1 text-center">
+                <p>1234 Main Street Egypt, GA 30305 | 404.555.5555  |  <a href="mailto:support@rootcave.com"><i class="icon-envelope-alt"></i> support@rootcave.com</a></p>
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 text-center">
+                <!--Social Icons-->
+                <ul class="social-icons">
+                    <li><a class="twitter" href="http://www.twitter.com/rootcave" target="_blank"><i class="fa fa-twitter fa-3x"></i></a></li>
+                    <li><a class="facebook" href="http://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-3x"></i></a></li>
+                    <li><a class="google" href="http://www.googleplus.com/" target="_blank"><i class="fa fa-google-plus fa-3x"></i></a></li>
+                    <li><a class="instagram" href="http://www.instagram.com/" target="_blank"><i class="fa fa-camera-retro fa-3x"></i></a></li>
+                    <li><a class="pinterest" href="http://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest fa-3x"></i></a></li>
+                    <li><a class="linkedin" href="http://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a></li>
+                    <li><a class="Github" href="http://www.github.com/" target="_blank"><i class="fa fa-github-alt fa-3x"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <p>&copy; Copyrights. I am a film All Rights Reserved. Created by <a href="http://www.rootcave.com/">Root Cave.</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="../../../../../../ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../js/lib/jquery-1.11.2.min.js"><\/script>')</script>
+<script src="../js/lib/bootstrap.min.js"></script>
+<script src="../js/app/main.js"></script>
+<script src="../js/app/iamafilm.js"></script>
+
+<script>
+    !function ($) {
+        $(function(){
+            $('#header').carousel()
+        })
+    }(window.jQuery)
+</script>
+
+
+
+</body>
+
+</html>

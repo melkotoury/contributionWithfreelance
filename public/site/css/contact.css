@@ -1,0 +1,71 @@
+/* ==========================================================================
+   Contact Page styles
+   ========================================================================== */
+
+#map {
+    height: 265px;
+    padding-bottom: 0;
+}
+
+#map > iframe {
+    background-color: transparent;
+    border: medium none;
+    height: inherit;
+    overflow: hidden;
+    width: 100%;
+}
+
+.jumbotron {
+    background: #358CCE;
+    color: #FFF;
+    border-radius: 0px;
+}
+.jumbotron-sm { padding-top: 24px;
+    padding-bottom: 24px; }
+.jumbotron small {
+    color: #FFF;
+}
+.h1 small {
+    font-size: 24px;
+}
+
+#message {
+    background: #fff;
+}
+
+.well {
+    border: 0;
+    padding: 20px;
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    box-shadow: none!important;
+    background: #ff755a;
+}
+.btn-inverse{
+background: white;
+    color: #ff755a;
+    border-color: white;
+}
+.btn-inverse:active,.btn-inverse:hover,.btn-inverse:visited{
+    background: #fffcfb;
+    color: #ff755a;
+    border-color: #fffcfb;
+}
+/*textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {*/
+    /*background-color: #ffffff;*/
+    /*border: 0 solid #CCCCCC;*/
+    /*box-shadow: 0 1px 1px rgba(0, 0, 0, 0.035) inset;*/
+    /*transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;*/
+/*}*/
+
+/*select, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {*/
+    /*border-radius: 2px 2px 2px 2px;*/
+    /*color: #555555;*/
+    /*display: inline-block;*/
+    /*height: 37px;*/
+    /*font-size: 14px;*/
+    /*line-height: 15px;*/
+    /*margin-bottom: 0px;*/
+    /*padding: 2px 6px;*/
+    /*vertical-align: middle;*/
+/*}*/

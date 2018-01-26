@@ -1,0 +1,40 @@
+body{
+    background:white;
+    color:black;
+}
+.film-details{
+    /*background: white;*/
+    margin-top: 100px;
+}
+
+.badge{
+    background:#ff755a;
+}
+.bold{
+    color:black;
+    font-weight:bold;
+    margin-right:10px;
+}
+p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #3f464a;
+}
+.social-icon {
+    margin-top: 10px;
+}
+.social-icon ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icon ul li {
+    display: inline-block;
+}
+
+.social-icon ul li img {
+    width: 32px;
+    height: 32px;
+}

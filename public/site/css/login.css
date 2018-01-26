@@ -1,0 +1,94 @@
+/* ==========================================================================
+   Sign Up Page styles
+   ========================================================================== */
+#signup {
+    background: url(../img/testimonial-bg.jpg) no-repeat;
+    background-size: 100% 100%;
+    padding-top: 89px;
+    background-color: #fff;
+
+    /* padding-bottom: 120px; */
+}
+
+#signup-form input {
+    width: 60%;
+}
+
+#signup h3{
+    color:#fff;
+    margin-top:25px
+}
+
+
+/* .signup {
+    background-color: #fff;
+    padding: 40px;
+    margin-top: 22px;
+} */
+
+input, button, select, textarea {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.input-append .add-on, .input-prepend .add-on {
+    background-color: #fff;
+    border: none;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: normal;
+    height: 42px;
+    line-height: 29px;
+    min-width: 32px;
+    padding: 7px 5px 1px 5px;
+    text-align: center;
+    text-shadow: 0 1px 0 #FFFFFF;
+    width: auto;
+}
+
+.form-horizontal .controls {
+    margin-left: 0px;
+}
+
+.input-large, .input-xlarge, .input-xxlarge, input[class*="span"], select[class*="span"], textarea[class*="span"], .uneditable-input {
+    -moz-box-sizing: border-box;
+    display: block;
+}
+
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    color: #ff755a;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding: 10px 6px;
+    vertical-align: middle;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.05);
+    width: 100%;
+}
+
+ul.social-icons-signup {
+    list-style: none;
+    margin-left: 0px;
+}
+
+ul.social-icons-signup li {
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 50px;
+}
+
+ul.social-icons-signup li a {
+    color: #dfe5e8;
+    text-decoration: none;
+}
+
+ul.social-icons-signup li a:hover {
+    color: #626c72;
+    bottom: 12px;
+    text-decoration: none;
+    transition: all 0.35s ease-in-out;
+}
+
+

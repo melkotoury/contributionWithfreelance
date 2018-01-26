@@ -1,0 +1,194 @@
+.margin-0{
+    margin-left: 0;
+}
+.box {
+    overflow: hidden;
+    padding: 10px;
+    border-bottom: 3px solid #FFFFFF;
+    border-radius: 0 0 5px 5px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 120px;
+}
+.search-fest .fa {
+    position: absolute;
+    top: 10px;
+    right: 7px;
+    color: #222;
+}
+.festival > h4{
+    letter-spacing: -1px;
+    color: white;
+    font-weight: bold;
+}
+.festival-clolr-box {
+    background: #ddd;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.festival-clolr-box {
+    background: #333;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.festival-clolr-box span {
+    width: 10px;
+    height: 10px;
+    background: #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.festival-box,
+.film-box {
+    overflow: hidden;
+    position: relative;
+    padding: 10px;
+    border-bottom: #ff755a;
+    padding-bottom: 30px;
+    margin-bottom: 14px;
+    background: #f7f7f7;
+}
+
+.submission,
+.deadline,
+.closed {
+    position: absolute;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+}
+
+.submission {
+    background: #00FFA1;
+}
+
+.deadline {
+    background: #FFD400;
+}
+
+.closed {
+    background: #ff2525;
+}
+
+.dropdown .btn-default {
+    width: 95%;
+    text-align: left;
+}
+
+#films {
+    display: none;
+}
+
+.tabs .active,
+.profile-tabs .active    {
+    background: #ffd400;
+}
+
+.festival-clolr-box {
+    background: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    text-transform: capitalize;
+    color: #ff755a;
+}
+
+.films-filter {
+    padding: 3px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.films-filter span {
+    padding: 10px;
+    display: block;
+    border-right: 1px solid #fff;
+    background: #ff755a;
+    float: left;
+    cursor: pointer;
+    width: 50%;
+    text-align: center;
+}
+
+.dropdpwn span {
+    margin: 10px auto;
+}
+
+.films-filter span:hover {
+    /* background: #ff755a; */
+    background: #ffffff;
+    color: #ff755a;
+}
+
+
+.films-filter span.active {
+    background: #ffffff;
+    color: #ff755a;
+}
+
+.navbar-default .navbar-brand{
+    padding: 0
+}
+.navbar-brand > img {
+    /* display: block; */
+    max-width: 200px;
+    margin-top: -10px;
+}
+
+.festival-filter span {
+    width: 33.33%;
+}
+
+@media screen and (max-width: 500px) {
+    * {
+        font-size:95%;
+    }
+    .navbar-brand > img {
+        /* display: block; */
+        max-width: 200px;
+        margin-top: -10px;
+    }
+}
+.fest-info
+{
+	margin-left: 20px;
+}
+.fish-eye
+{
+	margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important; 
+}
+.catalog
+{
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.padded
+{
+	padding-bottom: 20px;
+	color: #ff755a;
+}
+.orag
+{
+	color: #ff755a;
+}
+.gray
+{
+	background-color: #f7f7f7;
+}
+.margin
+{
+	margin-top: 10px;
+}

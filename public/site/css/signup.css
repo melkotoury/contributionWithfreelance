@@ -1,0 +1,29 @@
+.signup-margin{
+    margin-top: 100px;
+}
+
+.btn-primary{
+    color: white;
+    background: #ff755a;
+    border-color: #ff755a;
+}
+
+.btn-primary:hover,.btn-primary:active , .btn-primary:visited ,.btn-primary:focus{
+    color: white;
+    background: #f9674a;
+    border-color: #f9674a;
+}
+.margin-20{
+    margin-bottom:20px;
+}
+
+.btn-inverse{
+    color: #ff755a;
+    background: white;
+    border-color: #ff755a;
+}
+.btn-inverse:hover,.btn-inverse:active , .btn-inverse:visited ,.btn-inverse:focus{
+    color: #f9674a;
+    background: white;
+    border-color: #f9674a;
+}
